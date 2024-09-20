@@ -1,0 +1,91 @@
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 300px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-right: 1px solid #e0e0e0;
+}
+
+.sidebar h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.sidebar p {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.dropdown {
+  margin-bottom: 20px;
+}
+
+.sidebar button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  text-align: left;
+  font-size: 16px;
+  color: #555;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.sidebar button:hover {
+  background-color: #efefef;
+}
+
+.dropdown-content {
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.display {
+  width: 100%;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  min-height: 100px;
+}
+
+button {
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  background-color: #5b9aff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #337aff;
+}
